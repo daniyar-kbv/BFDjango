@@ -1,0 +1,5 @@
+a = int(input())
+res1 = "The next number for the number {0} is {1}.".format(a, a + 1)
+res2 = "The previous number for the number {0} is {1}.".format(a, a - 1)
+print(res1)
+print(res2)
