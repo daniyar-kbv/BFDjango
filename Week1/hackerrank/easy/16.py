@@ -1,4 +1,4 @@
-def countSubstring(string, sub_string):
+def count_ubstring(string, sub_string):
     count = 0
     index = 0
     for i in range(0, len(string)):

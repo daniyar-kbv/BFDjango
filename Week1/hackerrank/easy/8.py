@@ -1,12 +1,12 @@
-def secLowGrade(classList):
-    secLowScore = sorted(set(x[1] for x in classList))[1]
-    res = sorted([x[0] for x in classList if x[1] == secLowScore])
+def sec_lowGrade(class_list):
+    sec_low_score = sorted(set(x[1] for x in class_list))[1]
+    res = sorted([x[0] for x in class_list if x[1] == sec_low_score])
     return res
 
 numStudents = int(input())
-classList = []
+class_list = []
 
 for i in range(numStudents):
-    classList.append([str(input()), float(input())])
+    class_list.append([str(input()), float(input())])
 
-print('\n'.join(secLowGrade(classList)))
+print('\n'.join(sec_lowGrade(class_list)))

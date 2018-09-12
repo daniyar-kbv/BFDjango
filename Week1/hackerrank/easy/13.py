@@ -1,2 +1,2 @@
-def splitAndJoin(line):
+def split_and_Join(line):
     return line.replace(" ", "-")
