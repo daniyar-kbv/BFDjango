@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+
+{% block body %}
+    <h1>Hello</h1>
+    <h3>{{ name|lower|upper|lower|capfirst }}</h3>
+    <p>{{ dd|date:'F, j Y' }}</p>
+    <h4>ID: {{ student.id }}</h4>
+    <h4>Name: {{ student.name }}</h4>
+
+    {% if is_weekend %}
+        <p>Weekend</p>
+    {% else %}
+        <p>Not Weekend</p>
+    {% endif %}
+
+    <ul>
+        {% for number in numbers %}
+            <li>{{ number }}</li>
+        {% endfor %}
+    </ul>
+
+    {# comment #}
+
+    <ul>
+        {% for student in students %}
+            <li>
+                <h4>ID: {{ student.id }}<br>Name: {{ student.name }}</h4>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

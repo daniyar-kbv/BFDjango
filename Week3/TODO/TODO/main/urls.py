@@ -1,7 +1,8 @@
 from django.urls import path
 
-from . import views
+from main import views
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('', views.todo_list),
+    path('completed', views.completed_todo_list),
 ]
