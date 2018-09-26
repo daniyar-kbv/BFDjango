@@ -3,15 +3,22 @@
 
 {% block body %}
     <div id="main">
-        <a href="todos" type="button" class="btn btn-primary">View lists</a>
-        <button type="button" class="btn btn-primary">Add Task</button>
+
+        <a href=".." type="button" class="btn btn-primary">View lists</a>
         <hr>
-        <h3>Tasks in "List1"</h3>
-        <form method="GET" class="form-inline" action="/1/todolist">
+        <h3>Tasks of </h3>
+        <form method="GET" class="form-inline" action="./todo">
             <input class="form-control" type="text" name = "name" placeholder="Search">
-            <button type="submit" class="btn btn-primary my-1" style="margin-left: 5px;">Submit</button>
+            <button type="submit" class="btn btn-primary my-1" style="margin-left: 5px;">Search</button>
         </form>
-        <button type="button" class="btn btn-primary" onclick="window.location.href='./todo?order=name'" >Order by name</button>
+        <a href="./todo" type="button" class="btn btn-primary">Reset</a>
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Order by</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" onclick="window.location.href='./todo?order=name'">Name</a>
+                <a class="dropdown-item" onclick="window.location.href='./todo?order=cr_date'">Creation date</a>
+            </div>
+        </div>
         <table class="table">
             <tr>
                 <th>Task</th>
@@ -33,6 +40,5 @@
             {% endfor %}
         </table>
         <a href="./completed" type="button" class="btn btn-warning">View completed tasks</a>
-        <button type="button" class="btn btn-danger">Delete this task</button>
     </div>
 {% endblock %}
