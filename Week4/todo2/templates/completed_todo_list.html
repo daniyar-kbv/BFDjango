@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+
+{% block body %}
+    <div id="main">
+        <button type="button" class="btn btn-primary">Add Task</button>
+        <hr>
+        <h3>Tasks in "List1"</h3>
+        <form method="GET" class="form-inline" action="/1/donelist">
+            <input class="form-control" type="text" name = "name" placeholder="Search">
+            <button type="submit" class="btn btn-primary my-1" style="margin-left: 5px;">Submit</button>
+        </form>
+        <button type="button" class="btn btn-primary" onclick="window.location.href='./completed?order=name'" >Order by name</button>
+        <table class="table">
+            <tr>
+                <th>Task</th>
+                <th>Created</th>
+                <th>Due on</th>
+                <th>Owner</th>
+                <th>Mark</th>
+            </tr>
+            {% for task in tasks %}
+                    <tr>
+                        <td>Task {{ task.num }}</td>
+                        <td>{{ task.cr_date }}</td>
+                        <td>{{ task.due_date }}</td>
+                        <td>{{ task.owner }}</td>
+                        <td>
+                            <button type="button" class="btn btn-default dn_btn">Not done</button>
+                        </td>
+                    </tr>
+            {% endfor %}
+        </table>
+        <a href="./todo" type="button" class="btn btn-warning">View incompleted tasks</a>
+        <button type="button" class="btn btn-danger">Delete this task</button>
+    </div>
+{% endblock %}

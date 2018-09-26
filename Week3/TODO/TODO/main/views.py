@@ -15,7 +15,6 @@ def todo_list(request):
                 'owner': "admin",
                 'mark': False if i == 0 else True} for i in range(0, 5)]
 
-
     context = {
         'list':  tasks,
     }
