@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <div id="main">
+        <h3>Posts</h3>
+        {% for post in posts %}
+        <hr>
+        <h1>{{ post.title }}</h1>
+        <h2>By {{ post.author }}</h2>
+        <h4>{{ post.content }}</h4>
+        <p>{{ post.cr_date }}</p>
+        <a href="{{ post.id }}/post"><button type="button" class="btn btn-default dn_btn">View more</button></a>
+        <hr>
+        {% endfor %}
+    </div>
+{% endblock %}
