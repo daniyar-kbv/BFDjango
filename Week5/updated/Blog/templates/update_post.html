@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <div id="main">
+        <a href=".." type="button" class="btn btn-primary">View posts</a>
+        <hr>
+        <h3>Posts</h3>
+        <hr>
+        <form action="" method="post">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="author">Author:</label>
+                <input type="text" name="author" class="form-control" value="{{ post.author }}">
+                <label for="title">Title:</label>
+                <input type="text" name="title" class="form-control" value="{{ post.title }}">
+                <label for="content">Content:</label>
+                <input type="text" name="content" class="form-control" value="{{ post.content }}">
+            </div>
+            <input type="submit" class="btn btn-default" value="Submit">
+        </form>
+    </div>
+{% endblock %}
