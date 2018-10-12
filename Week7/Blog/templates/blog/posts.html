@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <div id="main">
+        <h3>Posts</h3>
+        <a href="create_post"><button type="button" class="btn btn-info">Add post</button></a>
+        {% for post in posts %}
+        <hr>
+        <h1>{{ post.title }}</h1>
+        <h2>By {{ post.author }}</h2>
+        <h4>{{ post.content }}</h4>
+        <p>{{ post.cr_date }}</p>
+        <a href="{{ post.id }}/post"><button type="button" class="btn btn-default">View more</button></a>
+        <a href="{{ post.id }}/delete_post"><button type="button" class="btn btn-danger">Delete</button></a>
+        <a href="{{ post.id }}/update_post"><button type="button" class="btn btn-warning">Edit</button></a>
+        <hr>
+        {% endfor %}
+    </div>
+{% endblock %}
