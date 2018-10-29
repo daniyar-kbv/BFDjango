@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div id="main">
+    <a href="create_rest"><button type="button" class="btn btn-warning">Create Restaurant</button></a>
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Number</th>
+            <th>Telephone</th>
+            <th>City</th>
+            <th>User</th>
+            <th></th>
+        </tr>
+        {% for rest in rests %}
+        <tr>
+            <td>{{ rest.name }}</td>
+            <td>{{ rest.number }}</td>
+            <td>{{ rest.telephone }}</td>
+            <td>{{ rest.city.name }}</td>
+            <td>{{ rest.user }}</td>
+            <td>
+                <a href="{{ rest.id }}/dishes"><button type="button" class="btn btn-default">Dishes</button></a>
+                <a href="{{ rest.id }}/delete_rest"><button type="button" class="btn btn-default">Delete</button></a>
+                <a href="{{ rest.id }}/update_rest"><button type="button" class="btn btn-default">Edit</button></a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}

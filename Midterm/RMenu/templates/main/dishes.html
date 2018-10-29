@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div id="main">
+    <a href="create_rest"></a>
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>User</th>
+            <th>Restaurant</th>
+            <th></th>
+        </tr>
+        {% for dish in dishes %}
+        <tr>
+            <td>{{ dish.name }}</td>
+            <td>{{ dish.number }}</td>
+            <td>{{ dish.telephone }}</td>
+            <td>{{ dish.city.name }}</td>
+            <td>{{ dish.user }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}

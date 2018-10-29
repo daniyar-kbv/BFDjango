@@ -2,13 +2,13 @@ from django.shortcuts import render, redirect
 from django.contrib import auth
 from django.contrib.auth.forms import UserCreationForm
 
-class
+
 def register(request):
     form = UserCreationForm(data=request.POST or None)
     if request.method == 'POST':
         if form.is_valid():
             form.save()
-            return redirect('blog')
+            return redirect('login')
     return render(request, 'auth/register.html', {'form': form})
 
 
@@ -19,14 +19,14 @@ def login(request):
         user = auth.authenticate(username=username, password=password)
         if user is not None and user.is_active:
             auth.login(request, user)
-            return redirect('blog')
+            return redirect('home')
         else:
             error = "username or password incorrect"
-            return render(request, 'login.html', {'error': error})
+            return render(request, 'auth/login.html', {'error': error})
     else:
         return render(request, 'auth/login.html')
 
 
 def logout(request):
     auth.logout(request)
-    return redirect('blog')
+    return redirect('home')

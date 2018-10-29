@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div id="main">
+    <a href=".."><button type="button" class="btn btn-warning">Restaurants</button></a>
+    <a href="create_dish"><button type="button" class="btn btn-warning">Create Dish</button></a>
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>User</th>
+            <th>Restaurant</th>
+        </tr>
+        {% for dish in dishes %}
+        <tr>
+            <td>{{ dish.name }}</td>
+            <td>{{ dish.description }}</td>
+            <td>{{ dish.price }}</td>
+            <td>{{ dish.user }}</td>
+            <td>{{ dish.restaurant.name }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
