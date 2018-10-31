@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+
+{% block body %}
+    <div id="main">
+        <a href=".." type="button" class="btn btn-primary">View posts</a>
+        <hr>
+        <h1>{{ post.title }}</h1>
+        <h2>By {{ post.author }}</h2>
+        <h4>{{ post.content }}</h4>
+        <p>{{ post.cr_date }}</p>
+        <hr>
+        <a href="create_comment"><button type="button" class="btn btn-info">Add comment</button></a>
+        <hr>
+        <h3>Comments:</h3>
+        {% for comment in comments %}
+            <hr>
+                <h4>{{ comment.author.username }}</h4>
+                <th5>{{ comment.content }}</th5>
+                <p>{{ comment.cr_date }}</p>
+                <a href="delete_comment/{{ comment.id }}"><button type="button" class="btn btn-danger">Delete</button></a>
+                <a href="update_comment/{{ comment.id }}"><button type="button" class="btn btn-warning">Edit</button></a>
+            <hr>
+        {% endfor %}
+    </div>
+{% endblock %}

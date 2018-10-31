@@ -23,17 +23,19 @@ class Dish(models.Model):
     restaurant = models.ForeignKey(Restaurant, on_delete=models.CASCADE)
 
 
-class RestRewiew(models.Model):
+class Review(models.Model):
     rating = models.IntegerField()
     comment = models.CharField(max_length=255)
     date = models.DateTimeField(default=datetime.now())
-    restaurant = models.ForeignKey(Restaurant, on_delete=models.CASCADE)
-    user = models.ForeignKey(User,on_delete=models.CASCADE)
-
-
-class DishReview(models.Model):
-    rating = models.IntegerField()
-    comment = models.CharField(max_length=255)
-    date = models.DateTimeField(default=datetime.now())
-    dish = models.ForeignKey(Dish, on_delete=models.CASCADE)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
+
+    class Meta:
+        abstract = True
+
+
+class RestReview(Review):
+    restaurant = models.ForeignKey(Restaurant, on_delete=models.CASCADE)
+
+
+class DishReview(Review):
+    dish = models.ForeignKey(Dish, on_delete=models.CASCADE)

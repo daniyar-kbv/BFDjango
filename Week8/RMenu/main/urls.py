@@ -1,5 +1,5 @@
 from django.urls import path, include
-from main.views import HomeView, CreateRestView, DishesView, CreateDishView, DeleteRestView, UpdateRestView
+from main.views import HomeView, CreateRestView, DishesView, CreateDishView, DeleteRestView, UpdateRestView, RestInfo
 from main import views
 
 
@@ -10,4 +10,6 @@ urlpatterns = [
     path('<int:fk>/create_dish', CreateDishView.as_view()),
     path('<int:fk>/delete_rest', DeleteRestView.as_view()),
     path('<int:fk>/update_rest', UpdateRestView.as_view()),
+    path('<int:fk>/rest_info', RestInfo.as_view()),
+    path('<int:fk>/create_rest_review',)
 ]

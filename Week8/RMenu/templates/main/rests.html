@@ -14,7 +14,7 @@
         </tr>
         {% for rest in rests %}
         <tr>
-            <td>{{ rest.name }}</td>
+            <td><a href="{{ rest.id }}/rest_info">{{ rest.name }}</a></td>
             <td>{{ rest.number }}</td>
             <td>{{ rest.telephone }}</td>
             <td>{{ rest.city.name }}</td>

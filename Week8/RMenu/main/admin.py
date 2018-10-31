@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import City, Restaurant, RestRewiew, Dish, DishReview
+from .models import City, Restaurant, RestReview, Dish, DishReview
 
 
 class CityAdmin(admin.ModelAdmin):
@@ -30,7 +30,7 @@ class DishReviewAdmin(admin.ModelAdmin):
 admin.site.register(City, CityAdmin)
 admin.site.register(Restaurant, RestaurantAdmin)
 admin.site.register(Dish, DishAdmin)
-admin.site.register(RestRewiew, RestReviewAdmin)
+admin.site.register(RestReview, RestReviewAdmin)
 admin.site.register(DishReview, DishReviewAdmin)
 
 # 1. Restaurant

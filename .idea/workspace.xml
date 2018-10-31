@@ -2,42 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e041abc-1d90-43d6-b50f-3ab0b9c16ae3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Midterm/RMenu/main/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Midterm/RMenu/main/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Midterm/RMenu/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Midterm/RMenu/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Midterm/RMenu/templates/main/create_rest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Midterm/RMenu/templates/main/dishes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Midterm/RMenu/templates/main/rests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/auth_/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/auth_/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/auth_/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/auth_/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/auth_/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/auth_/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/auth_/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/auth_/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/main/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/main/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/main/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/main/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/main/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/main/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/main/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/main/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/main/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/templates/auth/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/templates/auth/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/templates/main/create_dish.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/templates/main/create_rest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/templates/main/dishes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/templates/main/rests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week8/RMenu/templates/main/update_rest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week8/RMenu/templates/main/create_rest_review.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week8/RMenu/templates/main/rest_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/auth_/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/auth_/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/auth_/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/auth_/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/auth_/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/auth_/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/auth_/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/auth_/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/main/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/main/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/main/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/main/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/main/migrations/0002_comment_post_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/main/migrations/0003_auto_20181009_1939.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/main/migrations/0004_auto_20181010_0011.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/main/migrations/0005_auto_20181010_0047.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/main/migrations/0006_auto_20181010_0131.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/main/migrations/0007_auto_20181010_0131.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/main/migrations/0008_auto_20181010_0133.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/main/migrations/0009_auto_20181011_2122.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/main/migrations/0010_auto_20181012_1703.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/main/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/main/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/main/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/main/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/main/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/templates/auth/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/templates/auth/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Blog/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/auth_/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/auth_/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/auth_/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/auth_/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/auth_/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/auth_/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/auth_/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/auth_/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/main/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/main/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/main/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/main/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/main/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/main/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/main/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/main/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/main/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/templates/auth/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/templates/auth/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week9/Todo/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week7/Blog/auth_/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week7/Blog/auth_/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week7/Todo/Todo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week7/Todo/Todo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week8/RMenu/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week8/RMenu/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week8/RMenu/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week8/RMenu/main/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week8/RMenu/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week8/RMenu/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week8/RMenu/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week8/RMenu/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week8/RMenu/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week8/RMenu/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week8/RMenu/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week8/RMenu/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week8/RMenu/templates/main/rests.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week8/RMenu/templates/main/rests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week8/RMenu/templates/main/update_rest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week8/RMenu/templates/main/update_rest.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,18 +97,18 @@
     <session id="393231195">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="36" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="42" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.4" value="13" />
+          <entry key="project.open.time.4" value="15" />
           <entry key="project.open.time.5" value="7" />
-          <entry key="project.open.time.6" value="5" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.6" value="6" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="38" />
+          <entry key="project.opened" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -87,10 +116,10 @@
           <entry key="7" value="1" />
           <entry key="css" value="13" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="103" />
+          <entry key="html" value="126" />
           <entry key="pip" value="1" />
           <entry key="pip3" value="1" />
-          <entry key="py" value="317" />
+          <entry key="py" value="361" />
           <entry key="rnc" value="1" />
           <entry key="txt" value="6" />
         </counts>
@@ -98,9 +127,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="13" />
-          <entry key="HTML" value="103" />
+          <entry key="HTML" value="126" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="320" />
+          <entry key="Python" value="364" />
           <entry key="RNG Compact" value="1" />
         </counts>
       </usages-collector>
@@ -108,17 +137,17 @@
         <counts>
           <entry key="css" value="357" />
           <entry key="gitignore" value="24" />
-          <entry key="html" value="3490" />
-          <entry key="py" value="7609" />
+          <entry key="html" value="4037" />
+          <entry key="py" value="9281" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="357" />
-          <entry key="HTML" value="3490" />
+          <entry key="HTML" value="4037" />
           <entry key="PLAIN_TEXT" value="38" />
-          <entry key="Python" value="7609" />
+          <entry key="Python" value="9281" />
         </counts>
       </usages-collector>
     </session>
@@ -126,69 +155,44 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week8/RMenu/main/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week8/RMenu/main/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-                <marker date="1540833032524" expanded="true" signature="947:948" ph="..." />
-                <marker date="1540833032524" expanded="true" signature="947:956" ph="..." />
-                <marker date="1540833032524" expanded="true" signature="993:1862" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week8/RMenu/templates/main/update_rest.html">
+        <entry file="file://$PROJECT_DIR$/Week9/Blog/main/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week7/Blog/templates/blog/update_post.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week7/Blog/main/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="61" column="45" lean-forward="true" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week8/RMenu/main/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week8/RMenu/templates/main/create_rest.html">
+        <entry file="file://$PROJECT_DIR$/Week9/Blog/main/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+                <marker date="1541014065672" expanded="true" signature="562:563" ph="..." />
+                <marker date="1541014065672" expanded="true" signature="2467:2625" ph="..." />
+                <marker date="1541014065672" expanded="true" signature="3072:3073" ph="..." />
+                <marker date="1541014065672" expanded="true" signature="3299:3513" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week9/Blog/templates/main/create_comment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week9/Blog/templates/main/post_form.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="9" selection-end-column="14" />
@@ -197,28 +201,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week8/RMenu/templates/main/rests.html">
+        <entry file="file://$PROJECT_DIR$/Week9/Blog/main/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week8/RMenu/templates/main/dishes.html">
+        <entry file="file://$PROJECT_DIR$/Week9/Blog/main/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+            <state relative-caret-position="225">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week9/Blog/main/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week8/RMenu/main/models.py">
+        <entry file="file://$PROJECT_DIR$/Week9/Todo/main/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state relative-caret-position="85">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+                <marker date="1541011307483" expanded="true" signature="3455:3456" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -240,11 +266,17 @@
       <find>task</find>
       <find>fk</find>
       <find>rest</find>
+      <find>blog</find>
+      <find>author</find>
+      <find>post</find>
     </findStrings>
     <replaceStrings>
       <replace>class_list</replace>
       <replace>list</replace>
       <replace>dish</replace>
+      <replace>main</replace>
+      <replace>user</replace>
+      <replace>fk</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -253,34 +285,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Week7/Blog/templates/auth/register.html" />
-        <option value="$PROJECT_DIR$/Week7/Blog/auth_/urls.py" />
-        <option value="$PROJECT_DIR$/Week7/Blog/Blog/settings.py" />
-        <option value="$PROJECT_DIR$/Week7/Blog/Blog/urls.py" />
-        <option value="$PROJECT_DIR$/Week7/Blog/main/urls.py" />
-        <option value="$PROJECT_DIR$/Week7/Blog/templates/base.html" />
-        <option value="$PROJECT_DIR$/Week5/todo3/todo3/settings.py" />
-        <option value="$PROJECT_DIR$/Week7/Todo/Todo/settings.py" />
-        <option value="$PROJECT_DIR$/Week7/Todo/templates/base.html" />
-        <option value="$PROJECT_DIR$/Week7/Todo/templates/auth/register.html" />
-        <option value="$PROJECT_DIR$/Week7/Todo/templates/auth/login.html" />
-        <option value="$PROJECT_DIR$/Week7/Todo/auth_/urls.py" />
-        <option value="$PROJECT_DIR$/Week7/Todo/main/urls.py" />
-        <option value="$PROJECT_DIR$/Week7/Todo/main/views.py" />
-        <option value="$PROJECT_DIR$/Week7/Todo/Todo/urls.py" />
-        <option value="$PROJECT_DIR$/Week7/Todo/templates/todo/todo_list.html" />
-        <option value="$PROJECT_DIR$/Week7/Todo/templates/todo/completed_todo_list.html" />
-        <option value="$PROJECT_DIR$/Week7/Todo/auth_/views.py" />
-        <option value="$PROJECT_DIR$/Week7/Blog/main/models.py" />
-        <option value="$PROJECT_DIR$/Midterm/RMenu/static/css/style.css" />
-        <option value="$PROJECT_DIR$/Midterm/RMenu/RMenu/urls.py" />
-        <option value="$PROJECT_DIR$/Midterm/RMenu/RMenu/settings.py" />
-        <option value="$PROJECT_DIR$/Midterm/RMenu/main/admin.py" />
-        <option value="$PROJECT_DIR$/Midterm/RMenu/templates/base.html" />
-        <option value="$PROJECT_DIR$/Midterm/RMenu/templates/main/dishes.html" />
-        <option value="$PROJECT_DIR$/Midterm/RMenu/main/forms.py" />
-        <option value="$PROJECT_DIR$/Midterm/RMenu/templates/main/rests.html" />
-        <option value="$PROJECT_DIR$/Midterm/RMenu/main/urls.py" />
         <option value="$PROJECT_DIR$/Week7/Blog/templates/blog/create_post.html" />
         <option value="$PROJECT_DIR$/Midterm/RMenu/templates/main/create_rest.html" />
         <option value="$PROJECT_DIR$/Midterm/RMenu/main/models.py" />
@@ -291,19 +295,47 @@
         <option value="$PROJECT_DIR$/Week7/Blog/auth_/views.py" />
         <option value="$PROJECT_DIR$/Week8/RMenu/auth_/views.py" />
         <option value="$PROJECT_DIR$/Week8/RMenu/auth_/urls.py" />
-        <option value="$PROJECT_DIR$/Week8/RMenu/templates/base.html" />
         <option value="$PROJECT_DIR$/Week8/RMenu/static/css/style.css" />
-        <option value="$PROJECT_DIR$/Week8/RMenu/templates/main/create_rest.html" />
         <option value="$PROJECT_DIR$/Week8/RMenu/templates/main/create_dish.html" />
-        <option value="$PROJECT_DIR$/Week8/RMenu/main/models.py" />
-        <option value="$PROJECT_DIR$/Week8/RMenu/main/admin.py" />
-        <option value="$PROJECT_DIR$/Week8/RMenu/main/forms.py" />
         <option value="$PROJECT_DIR$/Week8/RMenu/templates/main/dishes.html" />
         <option value="$PROJECT_DIR$/Week8/RMenu/templates/main/delete_rest.html" />
-        <option value="$PROJECT_DIR$/Week8/RMenu/main/urls.py" />
-        <option value="$PROJECT_DIR$/Week8/RMenu/templates/main/rests.html" />
-        <option value="$PROJECT_DIR$/Week8/RMenu/main/views.py" />
         <option value="$PROJECT_DIR$/Week8/RMenu/templates/main/update_rest.html" />
+        <option value="$PROJECT_DIR$/Week8/RMenu/main/admin.py" />
+        <option value="$PROJECT_DIR$/Week8/RMenu/templates/main/create_rest_review.html" />
+        <option value="$PROJECT_DIR$/Week8/RMenu/templates/base.html" />
+        <option value="$PROJECT_DIR$/Week8/RMenu/templates/main/rests.html" />
+        <option value="$PROJECT_DIR$/Week8/RMenu/templates/main/rest_info.html" />
+        <option value="$PROJECT_DIR$/Week8/RMenu/main/urls.py" />
+        <option value="$PROJECT_DIR$/Week8/RMenu/main/views.py" />
+        <option value="$PROJECT_DIR$/Week8/RMenu/main/forms.py" />
+        <option value="$PROJECT_DIR$/Week9/Blog/Blog/urls.py" />
+        <option value="$PROJECT_DIR$/Week9/Blog/Blog/settings.py" />
+        <option value="$PROJECT_DIR$/Week9/Blog/auth_/views.py" />
+        <option value="$PROJECT_DIR$/Week9/Todo/Todo/urls.py" />
+        <option value="$PROJECT_DIR$/Week9/Todo/Todo/settings.py" />
+        <option value="$PROJECT_DIR$/Week7/Todo/Todo/settings.py" />
+        <option value="$PROJECT_DIR$/Week8/RMenu/main/models.py" />
+        <option value="$PROJECT_DIR$/Week9/Todo/templates/todo/lists.html" />
+        <option value="$PROJECT_DIR$/Week9/Todo/templates/todo/completed_todo_list.html" />
+        <option value="$PROJECT_DIR$/Week9/Todo/templates/todo/todo_list.html" />
+        <option value="$PROJECT_DIR$/Week9/Todo/main/forms.py" />
+        <option value="$PROJECT_DIR$/Week9/Todo/templates/todo/create_list.html" />
+        <option value="$PROJECT_DIR$/Week9/Todo/main/admin.py" />
+        <option value="$PROJECT_DIR$/Week8/RMenu/templates/main/create_rest.html" />
+        <option value="$PROJECT_DIR$/Week9/Todo/templates/base.html" />
+        <option value="$PROJECT_DIR$/Week9/Todo/templates/main/lists.html" />
+        <option value="$PROJECT_DIR$/Week9/Todo/main/models.py" />
+        <option value="$PROJECT_DIR$/Week9/Todo/main/urls.py" />
+        <option value="$PROJECT_DIR$/Week9/Todo/main/views.py" />
+        <option value="$PROJECT_DIR$/Week9/Blog/templates/main/create_post.html" />
+        <option value="$PROJECT_DIR$/Week9/Blog/templates/main/post_list.html" />
+        <option value="$PROJECT_DIR$/Week9/Blog/templates/main/post_detail.html" />
+        <option value="$PROJECT_DIR$/Week9/Blog/main/admin.py" />
+        <option value="$PROJECT_DIR$/Week9/Blog/main/models.py" />
+        <option value="$PROJECT_DIR$/Week9/Blog/templates/main/create_comment.html" />
+        <option value="$PROJECT_DIR$/Week9/Blog/main/forms.py" />
+        <option value="$PROJECT_DIR$/Week9/Blog/main/views.py" />
+        <option value="$PROJECT_DIR$/Week9/Blog/main/urls.py" />
       </list>
     </option>
   </component>
@@ -326,6 +358,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -336,73 +369,59 @@
             <path>
               <item name="Djangoo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
-              <item name="Week7" type="462c0819:PsiDirectoryNode" />
+              <item name="Week8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Djangoo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
-              <item name="Week7" type="462c0819:PsiDirectoryNode" />
+              <item name="Week8" type="462c0819:PsiDirectoryNode" />
+              <item name="RMenu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
+              <item name="Week8" type="462c0819:PsiDirectoryNode" />
+              <item name="RMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
+              <item name="Week8" type="462c0819:PsiDirectoryNode" />
+              <item name="RMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
+              <item name="Week9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
+              <item name="Week9" type="462c0819:PsiDirectoryNode" />
               <item name="Blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Djangoo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
-              <item name="Week7" type="462c0819:PsiDirectoryNode" />
+              <item name="Week9" type="462c0819:PsiDirectoryNode" />
               <item name="Blog" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Djangoo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
-              <item name="Week7" type="462c0819:PsiDirectoryNode" />
+              <item name="Week9" type="462c0819:PsiDirectoryNode" />
               <item name="Blog" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Djangoo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
-              <item name="Week7" type="462c0819:PsiDirectoryNode" />
+              <item name="Week9" type="462c0819:PsiDirectoryNode" />
               <item name="Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangoo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
-              <item name="Week8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangoo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
-              <item name="Week8" type="462c0819:PsiDirectoryNode" />
-              <item name="RMenu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangoo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
-              <item name="Week8" type="462c0819:PsiDirectoryNode" />
-              <item name="RMenu" type="462c0819:PsiDirectoryNode" />
-              <item name="auth_" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangoo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
-              <item name="Week8" type="462c0819:PsiDirectoryNode" />
-              <item name="RMenu" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangoo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
-              <item name="Week8" type="462c0819:PsiDirectoryNode" />
-              <item name="RMenu" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangoo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
-              <item name="Week8" type="462c0819:PsiDirectoryNode" />
-              <item name="RMenu" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -410,7 +429,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,17 +440,17 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week9/Todo" />
+      <recent name="$PROJECT_DIR$/Week9/Blog" />
+      <recent name="$PROJECT_DIR$/Week8/RMenu/auth_" />
+      <recent name="$PROJECT_DIR$/Week8/RMenu/templates/auth" />
+      <recent name="$PROJECT_DIR$/Week8/RMenu" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week7/Todo/templates/todo" />
       <recent name="$PROJECT_DIR$/Week7/Blog/templates/blog" />
       <recent name="$PROJECT_DIR$/Week5/todo3/templates" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Week8/RMenu/auth_" />
-      <recent name="$PROJECT_DIR$/Week8/RMenu/templates/auth" />
-      <recent name="$PROJECT_DIR$/Week8/RMenu" />
-      <recent name="$PROJECT_DIR$/Week7/Todo" />
-      <recent name="$PROJECT_DIR$/Week7/Blog" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -464,7 +482,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27896994" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30329043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -478,7 +496,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.23734939" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" visible="true" weight="0.19759037" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" visible="true" weight="0.19759037" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -517,278 +535,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Week7/Blog/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Midterm/RMenu/main/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/Todo/templates/todo/todo_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/Blog/templates/blog/update_comment.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Midterm/RMenu/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/Blog/main/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Midterm/RMenu/main/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/Blog/templates/blog/posts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Midterm/RMenu/templates/main/create_rest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Midterm/RMenu/main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Midterm/RMenu/main/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Midterm/RMenu/templates/main/dishes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Midterm/RMenu/main/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Midterm/RMenu/templates/main/rests.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Midterm/RMenu/main/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week8/RMenu/auth_/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Midterm/RMenu/RMenu/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="124" selection-start-line="124" selection-end-line="126" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week8/RMenu/RMenu/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
-          <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Midterm/RMenu/RMenu/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/Blog/auth_/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/Blog/auth_/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/Blog/auth_/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/Blog/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/Blog/auth_/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week8/RMenu/templates/auth/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week8/RMenu/RMenu/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/Blog/Blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/Blog/main/forms.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/Blog/auth_/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/Blog/templates/blog/create_post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week8/RMenu/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/Todo/Todo/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="126" selection-start-line="126" selection-end-line="129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week8/RMenu/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/Todo/templates/todo/lists.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week8/RMenu/auth_/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week8/RMenu/auth_/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/Todo/main/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week8/RMenu/templates/main/create_dish.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week8/RMenu/main/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/Todo/main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="904">
-          <caret line="103" column="14" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week8/RMenu/main/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week8/RMenu/main/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week8/RMenu/templates/main/dishes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -796,22 +542,244 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week8/RMenu/templates/main/delete_rest.html">
+    <entry file="file://$PROJECT_DIR$/Week7/Blog/main/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week7/Blog/templates/blog/update_post.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week7/Blog/main/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week8/RMenu/templates/main/rest_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week8/RMenu/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week8/RMenu/main/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week8/RMenu/main/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week8/RMenu/templates/main/create_rest_review.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week8/RMenu/templates/main/rests.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week8/RMenu/RMenu/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding>
+            <element signature="e#629#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Blog/auth_/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week7/Blog/Blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Blog/Blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week7/Blog/Blog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="127" selection-start-line="127" selection-end-line="129" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Blog/Blog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="128" column="1" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Blog/auth_/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Todo/main/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week7/Todo/Todo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Todo/Todo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-536">
+          <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week7/Todo/Todo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Todo/Todo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week8/RMenu/main/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Todo/templates/todo/completed_todo_list.html" />
+    <entry file="file://$PROJECT_DIR$/Week9/Todo/templates/todo/todo_list.html" />
+    <entry file="file://$PROJECT_DIR$/Week9/Todo/templates/todo/lists.html" />
+    <entry file="file://$PROJECT_DIR$/Week8/RMenu/main/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week8/RMenu/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
+            <marker date="1540979673396" expanded="true" signature="996:997" ph="..." />
+            <marker date="1540979673396" expanded="true" signature="996:1005" ph="..." />
+            <marker date="1540979673396" expanded="true" signature="2098:2369" ph="..." />
+            <marker date="1540979673396" expanded="true" signature="2399:2845" ph="..." />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Todo/templates/todo/create_list.html" />
+    <entry file="file://$PROJECT_DIR$/Week9/Todo/templates/main/todo_list.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Todo/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week7/Todo/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="94" selection-start-line="94" selection-end-line="98" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Todo/main/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Todo/main/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Todo/templates/main/lists.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Todo/main/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Todo/main/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Todo/templates/auth/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week7/Blog/templates/blog/create_post.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Week8/RMenu/templates/main/create_rest.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -820,40 +788,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week8/RMenu/templates/main/rests.html">
+    <entry file="file://$PROJECT_DIR$/Week9/Blog/templates/main/create_post.html" />
+    <entry file="file://$PROJECT_DIR$/Week9/Blog/templates/main/post_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="135">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/Blog/templates/blog/update_post.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/Blog/main/views.py">
+    <entry file="file://$PROJECT_DIR$/Week9/Blog/templates/main/post_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="61" column="45" lean-forward="true" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+        <state relative-caret-position="255">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week8/RMenu/main/views.py">
+    <entry file="file://$PROJECT_DIR$/Week9/Blog/main/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+        <state relative-caret-position="225">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
-            <marker date="1540833032524" expanded="true" signature="947:948" ph="..." />
-            <marker date="1540833032524" expanded="true" signature="947:956" ph="..." />
-            <marker date="1540833032524" expanded="true" signature="993:1862" ph="..." />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week8/RMenu/templates/main/update_rest.html">
+    <entry file="file://$PROJECT_DIR$/Week9/Blog/main/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Blog/main/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Blog/templates/main/post_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Blog/templates/main/create_comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Todo/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <marker date="1541011307483" expanded="true" signature="3455:3456" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Blog/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <marker date="1541014065672" expanded="true" signature="562:563" ph="..." />
+            <marker date="1541014065672" expanded="true" signature="2467:2625" ph="..." />
+            <marker date="1541014065672" expanded="true" signature="3072:3073" ph="..." />
+            <marker date="1541014065672" expanded="true" signature="3299:3513" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week9/Blog/main/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,8 +1,9 @@
 from django.shortcuts import render, redirect
-from .models import Restaurant, Dish, DishReview, RestRewiew, City
+from .models import Restaurant, Dish, DishReview, RestReview, City
 from .forms import RestForm, DishForm
 from django.contrib.auth.models import User
 from django.views import View
+from django.views.generic.edit import UpdateView
 
 
 class HomeView(View):
@@ -62,6 +63,38 @@ class UpdateRestView(View):
             return redirect('..')
 
 
+# class RestUpdate(UpdateView):
+#     model = Restaurant
+#     fields = ['name', 'number', 'telephone', 'city', 'user']
+#     template_name_suffix = '_update_form'
+
+
+class RestInfo(View):
+    def get(self, request, fk):
+        context = {
+            'rest': Restaurant.objects.get(pk=fk),
+            'reviews': RestReview.objects.filter(restaurant = Restaurant.objects.get(pk=fk))
+        }
+        return render(request, 'main/rest_info.html', context)
+
+
+class CreateRestReview(View):
+    def get(self, request):
+        form = RestForm()
+        context = {
+            'form': form,
+            'users': User.objects.all(),
+            'cities': City.objects.all()
+        }
+        return render(request, 'main/create_rest.html', context)
+
+    def post(self, request):
+        form = RestForm(request.POST)
+        if form.is_valid():
+            print("not valid:(")
+            form.save()
+            return redirect('./')
+
 class DishesView(View):
     def get(self, request, fk):
         context = {
@@ -94,3 +127,4 @@ class CreateDishView(View):
             dish.restaurant = Restaurant.objects.get(pk=fk)
             dish.save()
             return redirect('../')
+

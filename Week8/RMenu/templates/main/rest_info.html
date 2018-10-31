@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div id="main">
+    <h2>{{ rest.name }}</h2>
+    <p>Number: {{ rest.number }}</p>
+    <p>Telephone: {{ rest.telephone }}</p>
+    <p>City: {{ rest.city.name }}</p>
+    <p>Owner: {{ rest.user.username }}</p>
+    <hr>
+    <a href="create_rest_review"><button type="button" class="btn btn-warning">Add Review</button></a>
+    <h3>Reviews:</h3>
+    {% for review in reviews %}
+    <h5>By: {{ review.user.username }}</h5>
+    <p>{{ review.comment }}</p>
+    <p>Rating: {{ review.rating }}</p>
+    <p>{{ review.date }}</p>
+    <a href="create_rest"><button type="button" class="btn btn-warning">Delete</button></a>
+    <a href="create_rest"><button type="button" class="btn btn-warning">Edit</button></a>
+    {% endfor %}
+</div>
+{% endblock %}
