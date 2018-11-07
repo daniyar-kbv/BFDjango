@@ -11,5 +11,5 @@ urlpatterns = [
     path('<int:fk>/delete_rest', DeleteRestView.as_view()),
     path('<int:fk>/update_rest', UpdateRestView.as_view()),
     path('<int:fk>/rest_info', RestInfo.as_view()),
-    path('<int:fk>/create_rest_review',)
+    # path('<int:fk>/create_rest_review',)
 ]

@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <a class="btn btn-primary" href="{% url 'main2:student_create' %}">Add new Student</a>
+
+    <h1>Student list</h1>
+
+    <ul class="list-group">
+        {% for student in students %}
+
+            <li class="list-group-item">
+                <div>
+                    <h4><a href="{% url 'main2:student_detail' student.id %}">{{ student.name }}</a></h4>
+                    <h5>Created by: {{ student.created_by }}</h5>
+                </div>
+                {% if user == student.created_by %}
+                    <div class="actions text-right">
+                        <a class="btn btn-xs btn-info" href="{% url 'main2:student_update' student.id %}">Update</a>
+                        <a class="btn btn-xs btn-danger" href="{% url 'main2:student_delete' student.id %}">Delete</a>
+                    </div>
+                {% endif %}
+            </li>
+
+        {% endfor %}
+    </ul>
+{% endblock %}

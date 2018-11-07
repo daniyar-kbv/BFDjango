@@ -14,4 +14,3 @@ class DishForm(forms.ModelForm):
         fields = ('name', 'description', 'price', 'user')
 
 
-class ReviewReviewView()
