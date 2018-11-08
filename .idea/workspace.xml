@@ -2,170 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e041abc-1d90-43d6-b50f-3ab0b9c16ae3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FromLectures/.idea/FromLectures.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/api1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/api1/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/api1/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/api1/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/api1/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/api1/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/api1/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/api1/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/api2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/api2/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/api2/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/api2/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/api2/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/api2/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/api2/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/api2/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/api2/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/auth_/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/auth_/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/auth_/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/auth_/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/auth_/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/auth_/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/auth_/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/auth_/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/auth_/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/auth_/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/migrations/0002_book_num_pages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/migrations/0003_remove_book_num_pages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/migrations/0004_book_num_pages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/migrations/0005_auto_20180927_1942.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/migrations/0006_auto_20180927_1949.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/migrations/0007_auto_20180927_2032.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/migrations/0008_author_bday.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/migrations/0009_remove_author_bday.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/templates/author/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/templates/author/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/templates/author/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/templates/book/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/migrations/0002_student_created_by.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/migrations/0003_auto_20181029_1047.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/templates/main2/student_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/templates/main2/student_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/templates/main2/student_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/templates/main2/student_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/views/const_templates.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/views/student.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FromLectures/week10/demo/main2/views/teacher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/api/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/api/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/api/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/api/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/api/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/api/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/api/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/auth_/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/auth_/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/auth_/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/auth_/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/auth_/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/auth_/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/auth_/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/auth_/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/migrations/0002_comment_post_id.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/migrations/0003_auto_20181009_1939.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/migrations/0004_auto_20181010_0011.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/migrations/0005_auto_20181010_0047.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/migrations/0006_auto_20181010_0131.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/migrations/0007_auto_20181010_0131.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/migrations/0008_auto_20181010_0133.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/migrations/0009_auto_20181011_2122.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/migrations/0010_auto_20181012_1703.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/migrations/0011_auto_20181031_1720.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/migrations/0012_auto_20181031_1856.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/migrations/0013_auto_20181031_1900.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/migrations/0014_auto_20181031_1901.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/migrations/0015_auto_20181031_1902.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/migrations/0016_auto_20181031_1908.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/main/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/templates/auth/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/templates/auth/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/templates/main/create_comment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/templates/main/post_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/templates/main/post_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/templates/main/post_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/templates/main/update_comment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Blog/templates/main/update_post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/Todo/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/api/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/auth_/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/auth_/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/auth_/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/auth_/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/auth_/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/auth_/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/auth_/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/auth_/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/main/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/main/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/main/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/main/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/main/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/main/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/main/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/main/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/main/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/templates/auth/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/templates/auth/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/templates/todo/completed_todo_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/templates/todo/create_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/templates/todo/lists.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Todo/templates/todo/todo_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week10/.idea/Week10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week10/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week10/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week10/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week10/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week10/Todo/.idea/Todo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week10/Todo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week10/Todo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week10/Todo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week10/Todo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Djangoo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Djangoo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week8/RMenu/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week8/RMenu/main/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week8/RMenu/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week8/RMenu/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FromLectures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FromLectures/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week10/Blog/Blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week10/Blog/Blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week10/Blog/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week10/Blog/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week10/Blog/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week10/Blog/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week10/Todo/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week10/Todo/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week10/Todo/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week10/Todo/main/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -196,8 +51,8 @@
     <session id="393231195">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="49" />
-          <entry key="project.open.time.0" value="4" />
+          <entry key="project.closed" value="50" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="4" />
@@ -207,7 +62,7 @@
           <entry key="project.open.time.6" value="6" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="51" />
+          <entry key="project.opened" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -218,7 +73,7 @@
           <entry key="html" value="135" />
           <entry key="pip" value="1" />
           <entry key="pip3" value="1" />
-          <entry key="py" value="421" />
+          <entry key="py" value="422" />
           <entry key="rnc" value="1" />
           <entry key="txt" value="6" />
         </counts>
@@ -228,7 +83,7 @@
           <entry key="CSS" value="13" />
           <entry key="HTML" value="135" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="424" />
+          <entry key="Python" value="425" />
           <entry key="RNG Compact" value="1" />
         </counts>
       </usages-collector>
@@ -237,7 +92,7 @@
           <entry key="css" value="357" />
           <entry key="gitignore" value="24" />
           <entry key="html" value="4052" />
-          <entry key="py" value="12077" />
+          <entry key="py" value="12128" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
@@ -246,39 +101,18 @@
           <entry key="CSS" value="357" />
           <entry key="HTML" value="4052" />
           <entry key="PLAIN_TEXT" value="38" />
-          <entry key="Python" value="12077" />
+          <entry key="Python" value="12128" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week10/Blog/api/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week10/Blog/api/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week10/Blog/api/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="65" column="62" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
+            <state relative-caret-position="439">
+              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -289,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week10/Blog/main/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            <state relative-caret-position="255">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
                 <marker date="1541613324305" expanded="true" signature="589:598" ph="..." />
@@ -380,12 +214,12 @@
         <option value="$PROJECT_DIR$/Week10/Todo/api/urls.py" />
         <option value="$PROJECT_DIR$/Week10/Blog/Blog/settings.py" />
         <option value="$PROJECT_DIR$/Week9/Blog/Blog/urls.py" />
-        <option value="$PROJECT_DIR$/Week10/Blog/Blog/urls.py" />
         <option value="$PROJECT_DIR$/Week10/Blog/main/views.py" />
         <option value="$PROJECT_DIR$/Week10/Blog/main/urls.py" />
         <option value="$PROJECT_DIR$/Week10/Blog/main/models.py" />
-        <option value="$PROJECT_DIR$/Week10/Blog/api/serializers.py" />
         <option value="$PROJECT_DIR$/Week10/Blog/api/views.py" />
+        <option value="$PROJECT_DIR$/Week10/Blog/Blog/urls.py" />
+        <option value="$PROJECT_DIR$/Week10/Blog/api/serializers.py" />
         <option value="$PROJECT_DIR$/Week10/Blog/api/urls.py" />
       </list>
     </option>
@@ -418,24 +252,6 @@
             <path>
               <item name="Djangoo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
-              <item name="Week9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangoo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
-              <item name="Week9" type="462c0819:PsiDirectoryNode" />
-              <item name="Blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangoo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
-              <item name="Week9" type="462c0819:PsiDirectoryNode" />
-              <item name="Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="Blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangoo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
               <item name="Week10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -456,7 +272,7 @@
               <item name="Djangoo" type="462c0819:PsiDirectoryNode" />
               <item name="Week10" type="462c0819:PsiDirectoryNode" />
               <item name="Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -472,6 +288,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -517,7 +334,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33333334" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3383405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -531,7 +348,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.23734939" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" visible="true" weight="0.19759037" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" visible="true" weight="0.19759037" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -672,9 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#628#660#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,21 +566,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week10/Todo/main/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Week10/Todo/Todo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="e#628#660#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -836,8 +641,8 @@
           <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <marker date="1541611816104" expanded="true" signature="265:342" ph="..." />
-            <marker date="1541611816104" expanded="true" signature="725:767" ph="..." />
+            <marker date="1541664263715" expanded="true" signature="265:342" ph="..." />
+            <marker date="1541664263715" expanded="true" signature="731:773" ph="..." />
           </folding>
         </state>
       </provider>
@@ -866,23 +671,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week10/Blog/Blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="e#628#660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week10/Blog/main/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -890,9 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -901,8 +690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week10/Blog/main/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
             <marker date="1541613324305" expanded="true" signature="589:598" ph="..." />
@@ -910,29 +699,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week10/Blog/api/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" column="62" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week10/Blog/api/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="-288">
           <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week10/Blog/api/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="60">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week10/Blog/Blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week10/Blog/api/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>

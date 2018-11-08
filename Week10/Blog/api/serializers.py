@@ -12,7 +12,7 @@ class UserSerializer(serializers.Serializer):
 
 class PostSerializer(serializers.Serializer):
     id = serializers.IntegerField(read_only=True)
-    user = serializers.UserSerializer(read_only=True)
+    user = UserSerializer(read_only=True)
     cr_date = serializers.DateTimeField(read_only=True)
     title = serializers.CharField(max_length=255)
     content = serializers.CharField(max_length=255)
@@ -39,7 +39,7 @@ class PostModelSerializer(serializers.ModelSerializer):
 
 class CommentSerializer(serializers.Serializer):
     id = serializers.IntegerField(read_only=True)
-    user = serializers.UserSerializer(read_only=True)
+    user = UserSerializer(read_only=True)
     cr_date = serializers.DateTimeField(read_only=True)
     content = serializers.CharField(max_length=255)
     post_id = PostSerializer(read_only=True)
@@ -57,7 +57,7 @@ class CommentSerializer(serializers.Serializer):
         return instance
 
 
-class PostModelSerializer(serializers.ModelSerializer):
+class CommentModelSerializer(serializers.ModelSerializer):
     user = UserSerializer(read_only=True)
     post_id = PostSerializer(read_only=True)
 

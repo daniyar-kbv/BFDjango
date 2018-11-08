@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <a class="btn btn-info" href="{% url 'main2:student_list' %}">Back</a>
+    <h1>Student: {{ object }} </h1>
+{% endblock %}

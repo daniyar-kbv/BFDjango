@@ -23,7 +23,7 @@ class List(models.Model):
         return {
             'id': self.id,
             'name': self.name,
-            'user': self.created_by.username
+            'created_by': self.created_by.username
         }
 
     def get_absolute_url(self):

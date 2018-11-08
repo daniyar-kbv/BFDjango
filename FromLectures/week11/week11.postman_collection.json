@@ -1,0 +1,408 @@
+{
+	"info": {
+		"_postman_id": "17cca020-1446-4dea-9f0e-d17326f7f2af",
+		"name": "week11",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "api1",
+			"item": [
+				{
+					"name": "First Index test view",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8000/api1/index/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api1",
+								"index",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Student List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8000/api1/students/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api1",
+								"students",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Student Create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"api test student 3\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8000/api1/students/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api1",
+								"students",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Student Show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8000/api1/students/18/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api1",
+								"students",
+								"18",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Student Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"student 11 update new\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8000/api1/students/6/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api1",
+								"students",
+								"6",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Student Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8000/api1/students/8/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api1",
+								"students",
+								"8",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "api2",
+			"item": [
+				{
+					"name": "User Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "e7378385-89a3-44ad-bad6-7ad8697cc0a2",
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);",
+									"postman.setEnvironmentVariable(\"token\", jsonData.token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"username\": \"user1\",\n\t\"password\": \"asdasdasd\"\n}"
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/api2/login/",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"api2",
+								"login",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Student List",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/api2/students/",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"api2",
+								"students",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Student Create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Token {{token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"new Student from drf 8\"\n}"
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/api2/students/",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"api2",
+								"students",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Student Show",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/api2/students/31/",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"api2",
+								"students",
+								"31",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Student Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"api test student updated 25 updated\"\t\n}"
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/api2/students/25/",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"api2",
+								"students",
+								"25",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Student Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/api2/students/29/",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"api2",
+								"students",
+								"29",
+								""
+							],
+							"query": [
+								{
+									"key": "",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
