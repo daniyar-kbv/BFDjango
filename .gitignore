@@ -117,3 +117,5 @@ venv/
 ENV/
 myenv/
 .myenv
+practice/
+.practice
