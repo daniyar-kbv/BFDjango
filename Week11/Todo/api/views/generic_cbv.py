@@ -22,7 +22,7 @@ class GenericListList(generics.ListCreateAPIView):
     permission_classes = (IsAuthenticated, )
 
     def get_queryset(self):
-        return List.objects.for_user(self.request.user)
+        return List.objects.filter(created_by=self.request.user)
 
     def perform_create(self, serializer):
         serializer.save(created_by=self.request.user)
@@ -39,7 +39,7 @@ class GenericListDetail(generics.RetrieveUpdateDestroyAPIView):
         return List.objects.get(id=self.kwargs[self.lookup_field])
 
     def get_queryset(self):
-        return List.objects.for_user(self.request.user)
+        return List.objects.get(user=self)
 
 
 class GenericTaskList(generics.ListCreateAPIView):
